@@ -3,7 +3,9 @@
 A **Python** CLI security tool that goes far beyond "8 characters, 1 number, 1 symbol." It analyzes real entropy, detects structural weaknesses (keyboard walks, sequences, leetspeak-disguised common passwords), estimates realistic crack times across multiple attack scenarios, checks for known data breaches, and can enforce a custom password policy — perfect for CI pipelines, signup form validation, or a personal security audit.
 
 Built with a rich terminal UI (via [`rich`](https://github.com/Textualize/rich)) and zero heavyweight dependencies.
+## Output
 
+![Output Screenshot](./Screenshot.png)
 ## ✨ Features
 
 - **Entropy Analysis** — computes true character-pool-based entropy (bits), not just a length check
